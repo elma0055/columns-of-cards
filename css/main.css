@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+img {
+  width: 100%;
+  width: 100px;
+}
+
+.image {
+  flex: nowrap;
+  text-align: center;
+}
+
+.content {
+flex: nowrap;
+}
+
+article {
+  border-left: 2px solid #000;
+  width: 25%;
+  padding: .75rem;
+  flex-wrap: nowrap;
+}
+
+section {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  background-color: #333;
+  display: block;
+  padding: .75rem;
+  color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.dino {
+  background-color: #ccc;
+}
+
+.anderson {
+  background-color: #e2e2e2;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.ships {
+  background-color: #999;
+}
