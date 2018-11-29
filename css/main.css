@@ -21,15 +21,16 @@ h2 {
 img {
   width: 100%;
   width: 100px;
+  display: flex;
 }
 
 .image {
-  flex: nowrap;
+  flex-wrap: nowrap;
   text-align: center;
 }
 
 .content {
-flex: nowrap;
+flex-wrap: nowrap;
 }
 
 article {
@@ -37,19 +38,24 @@ article {
   width: 25%;
   padding: .75rem;
   flex-wrap: nowrap;
+  flex-grow: 1;
 }
 
 section {
   display: flex;
 }
 
-a {
+.btn {
   text-decoration: none;
   background-color: #333;
   display: block;
   padding: .75rem;
   color: #f2f2f2;
   border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .dino {
