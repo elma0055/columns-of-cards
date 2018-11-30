@@ -10,18 +10,21 @@ body {
   background-color: #f2f2f2;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 h2 {
   text-align: center;
-  margin: 0 auto 1.5rem;
-  display: block;
+  font-size: 1rem;
 }
 
 img {
   width: 100%;
   width: 100px;
-  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
@@ -30,7 +33,8 @@ img {
 }
 
 .content {
-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-size: .875rem;
 }
 
 article {
@@ -39,6 +43,8 @@ article {
   padding: .75rem;
   flex-wrap: nowrap;
   flex-grow: 1;
+  flex-direction: column;
+  display: flex;
 }
 
 section {
@@ -46,16 +52,23 @@ section {
 }
 
 .btn {
-  text-decoration: none;
   background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125rem;
+  margin: 5px;
+  padding: .4em .75em .3em;
   display: block;
-  padding: .75rem;
-  color: #f2f2f2;
-  border-radius: 4px;
 }
 
 .btn:hover {
   background-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 .dino {
@@ -72,4 +85,17 @@ section {
 
 .ships {
   background-color: #999;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+h3 {
+  margin-bottom: 0;
 }
