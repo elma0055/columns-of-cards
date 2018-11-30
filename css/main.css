@@ -8,21 +8,22 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
   margin: 0;
 }
 
 header {
-  background-color: #f2f2f2;
-  padding-top: 1.5rem;
+  background-color: #f2f2f2;;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 0;
-  padding: 0;
-  line-height: 1.5;
+  padding: 1.5rem;
 }
 
 img {
@@ -31,18 +32,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.image {
   flex-wrap: nowrap;
   text-align: center;
-  margin: 0 auto 1.5rem;
 }
 
 .content {
   flex-wrap: nowrap;
   font-size: .875rem;
-  margin: 0 auto 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 article {
@@ -54,6 +52,8 @@ article {
   display: flex;
   margin: 0 auto 1.5rem;
   padding: .75rem;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 section {
@@ -67,7 +67,7 @@ section {
   text-decoration: none;
   display: block;
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
+  padding: .75rem;
 }
 
 .btn:hover {
@@ -95,11 +95,13 @@ section {
 }
 
 h3 {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 p {
   margin: 0;
+  font-size: 1rem;
 }
 
 .right {
