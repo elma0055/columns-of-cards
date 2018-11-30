@@ -7,16 +7,22 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding-top: 1.5rem;
 }
 
 .h2 {
   text-align: center;
   font-size: 2rem;
+  margin-top: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 img {
@@ -30,11 +36,13 @@ img {
 .image {
   flex-wrap: nowrap;
   text-align: center;
+  margin: 0 auto 1.5rem;
 }
 
 .content {
   flex-wrap: nowrap;
   font-size: .875rem;
+  margin: 0 auto 1.5rem;
 }
 
 article {
@@ -44,13 +52,12 @@ article {
   flex-grow: 1;
   flex-direction: column;
   display: flex;
-  margin: 0 0 1.5rem;
+  margin: 0 auto 1.5rem;
   padding: .75rem;
 }
 
 section {
   display: flex;
-  background-color: #f2f2f2;
 }
 
 .btn {
@@ -58,11 +65,9 @@ section {
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1.125rem;
-  margin: 5px;
-  padding: .4em .75em .3em;
   display: block;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
 }
 
 .btn:hover {
@@ -89,15 +94,19 @@ section {
   background-color: #999;
 }
 
-p {
-  margin-top: 0;
-  font-size: 1rem;
-}
-
 h3 {
   margin-bottom: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .right {
   border-right: 2px solid #000;
+  margin-right: 1.5rem;
+}
+
+.left {
+  margin-left: 1.5rem;
 }
